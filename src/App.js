@@ -1,6 +1,6 @@
 import './App.css';
 import { RouterProvider, createBrowserRouter, Link } from 'react-router-dom';
-import ttt4 from './assets/ttt4.png'; 
+import ttt from './assets/ttt.png'; 
 
 const router = createBrowserRouter([
   {
@@ -8,7 +8,7 @@ const router = createBrowserRouter([
     element: (
       <div style={{margin:"5rem"}}>
         <h1>Hello World</h1>
-        <img src={ttt4} style={{width:"95px", height:"95px", borderRadius:"50%"}}alt="ttt" />
+        <img src={ttt} style={{width:"95px", height:"95px", borderRadius:"50%"}}alt="ttt" />
         <Link to="about">About Us</Link>
       </div>
     ),
